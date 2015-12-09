@@ -1,0 +1,93 @@
+body {
+	background-image: url("../images/image2.png");
+	background-attachment:fixed;
+	clear:both;
+}
+
+header,h1 { 
+    color:#79a5a8;
+   text-align:center;
+}
+p{
+     color:black;
+   text-align:center;
+}
+
+
+
+td{
+	padding-top:4px;
+	text-align:justify;
+}
+.en_tete{
+	display:inline-block;
+	
+}
+
+a{
+
+top: 1%; 
+left:1%;
+}
+main{
+    text-align:left;
+  
+}
+
+@font-face{
+    font-family: 'GoodDog';
+    src: url("GoodDog.eot");
+    src: url("GoodDog-webfont.eot?#iefix") format('embedded-opentype'),
+         url('GoodDog-webfont.woff') format('woff'),
+         url('GoodDog-webfont.ttf') format('truetype'),
+         url('GoodDog-webfont.svg#GoodDog-webfont') format('svg');
+}
+
+h1 {
+    font-family: 'GoodDog', Arial, serif;
+  
+}
+.liseret{
+
+    display: inline;
+    vertical-align: top;
+}
+
+     section{
+    display: inline-block;
+    vertical-align: top;
+    width:19%;
+    margin-left:10%;
+}
+ .liseret{
+     position:absolute;
+     width:55px;
+     height:90%;
+     background-color:gray;
+     border-radius:10px;
+     padding:10px;
+ }
+ @media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav li
+    {
+        display: block;
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
